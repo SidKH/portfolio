@@ -9,7 +9,7 @@ import styles from './thanks.styles.js';
  */
 class Thanks extends Section {
   CV_URL = 'https://docs.google.com/document/d/15xX_RQ9j5sUG19AoSt0Lzh1NBlNU_U_sL1jBQW6VfIs/edit?usp=sharing';
-  GITHUB_URL = 'http://google.com';
+  GITHUB_URL = 'https://github.com/SidKH/portfolio';
   render() {
     const classes = this.props.classes;
     return (
