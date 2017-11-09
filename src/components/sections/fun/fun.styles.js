@@ -47,7 +47,8 @@ const styles = {
   },
   [MEDIA.TABLET_PORTRAIT]: {
     partA: {
-      display: 'none'
+      display: 'none',
+      backgroundImage: 'none'
     },
     heading: {
       fontSize: '64px',
@@ -69,7 +70,8 @@ const styles = {
       width: '250px'
     },
     partA: {
-      display: 'none'
+      display: 'none',
+      backgroundImage: 'none'
     },
     partBCHolder: {
       flexDirection: 'row-reverse'
