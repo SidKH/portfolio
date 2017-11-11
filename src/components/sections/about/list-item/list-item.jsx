@@ -9,7 +9,7 @@ import PropTypes from 'prop-types';
  */
 const ListItem = (props) => {
   return !props.isActiveSection() ? null : (
-    <div className={props.classes.listItem + ' fadeIn animated'}>
+    <div className={`${props.classes.listItem} ${props.className || ''} fadeIn animated`}>
       <img className={props.classes.listIcon} src={props.iconSrc} alt="List item icon" />
       <div>
         {props.children}

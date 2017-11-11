@@ -55,6 +55,11 @@ const styles = {
     top: '6px',
     height: '50px'
   },
+  qq: {
+    '& span:first-child': {
+      textDecoration: 'line-through'
+    }
+  },
   [MEDIA.LAPTOP_AND_TABLET]: {
     heading: {
       fontSize: '52px',

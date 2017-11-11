@@ -30,7 +30,8 @@ class About extends Section {
     {
       topLine: 'Quantity',
       bottomLine: 'Quality',
-      iconSrc: QalitySvgSrc
+      iconSrc: QalitySvgSrc,
+      className: this.props.classes.qq
     },
     {
       topLine: 'The craft',
@@ -49,6 +50,7 @@ class About extends Section {
         <ListItem
           isActiveSection={() => this.isActiveSection()}
           classes={this.props.classes}
+          className={listItem.className}
           iconSrc={listItem.iconSrc}
           index={i}
           key={i}>
