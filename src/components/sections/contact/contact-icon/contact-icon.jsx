@@ -9,7 +9,7 @@ import PropTypes from 'prop-types';
  */
 const ContactIcon = (props) => {
   return !props.isActiveSection() ? null : (
-    <a className={props.classes.iconLink + ' fadeIn animated'}
+    <a className={props.classes.iconLink + ' flipInX animated'}
       target="_blank"
       href={props.href}>
       <img src={props.iconSrc} alt="Contact icon" />
