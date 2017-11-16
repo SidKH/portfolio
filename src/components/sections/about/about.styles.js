@@ -108,7 +108,8 @@ const styles = {
       margin: '0'
     },
     listIcon: {
-      height: '44px'
+      height: '40px',
+      top: '2px'
     }
   },
   [MEDIA.PHONE_PLUS_LANDSCAPE]: {
@@ -140,7 +141,8 @@ const styles = {
       lineHeight: '20px',
     },
     listIcon: {
-      height: '40px'
+      top: '0',
+      height: '38px'
     }
   },
   [MEDIA.PHONE_LANDSCAPE]: {

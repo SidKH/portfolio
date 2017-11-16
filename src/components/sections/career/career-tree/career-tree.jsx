@@ -43,7 +43,7 @@ class CareerTree extends Component {
     const classes = this.props.classes;
     return !this.props.isActiveSection() ? null :
     (
-      <div className={classes.container + ' fadeIn animated'}>
+      <div className={classes.container + ' fadeInUp animated'}>
         <div className={classes.holder}>
             {this.renderPositions()}
         </div>

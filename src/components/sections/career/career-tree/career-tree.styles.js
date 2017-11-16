@@ -16,6 +16,7 @@ const styles = {
     textTransform: 'uppercase',
     height: '100%',
     alignItems: 'center',
+    animationTimingFunction: 'ease-out',
     '&:after': {
       content: '""',
       position: 'absolute',
@@ -39,7 +40,7 @@ const styles = {
     width: 8
   },
   position: {
-    ...AnimationSequence(1, 0.5, 4),
+    ...AnimationSequence(1.2, 0.5, 4),
     fontSize: '24px',
     lineHeight: '30px',
     animationDuration: '0.4s',
