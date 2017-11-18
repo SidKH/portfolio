@@ -29,7 +29,7 @@ class Contact extends Section {
     },
     {
       iconSrc: LinkedinSvg,
-      href: 'https://www.linkedin.com/in/alexander-sidorenko-32b435b3/'
+      href: 'https://www.linkedin.com/in/alex-sidorenko-32b435b3/'
     },
     {
       iconSrc: AngelSvg,
