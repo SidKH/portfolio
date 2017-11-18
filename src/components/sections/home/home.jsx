@@ -15,7 +15,7 @@ class Home extends Section {
           <div className={classes.holder}>
             {this.isActiveSection() &&
               <div className={classes.contentHolder + ' fadeIn animated'}>
-                <span className={classes.info}>Alex Sydorenko</span>
+                <span className={classes.info}>Alex Sidorenko</span>
                 <h2 className={classes.heading}>
                   Simplicity<br/>
                   Is the <span className={classes.headingWord}>key</span>
