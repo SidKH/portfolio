@@ -13,6 +13,9 @@ const styles = {
     'body': {
       fontFamily: FONTS.PRIMARY,
       fontSize: '14px'
+    },
+    '*': {
+      '-webkit-tap-highlight-color': 'rgba(0,0,0,0)'
     }
   }
 }

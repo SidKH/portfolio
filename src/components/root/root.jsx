@@ -12,6 +12,7 @@ let store = createStore(reducer);
 class Root extends Component {
   render() {
     return (
+
       <Provider store={store}>
         <App />
       </Provider>

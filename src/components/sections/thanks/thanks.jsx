@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import injectSheet from 'react-jss';
 import Section from '../../section/section';
+import PeeledText from '../../peeled-text/peeled-text';
 import styles from './thanks.styles.js';
 
 /**
@@ -19,7 +20,10 @@ class Thanks extends Section {
             <a href={this.CV_URL} target="_blank"
               className={classes.info}>CV for more info</a>
             <h2 className={classes.heading}>
-              Thank<span className={classes.headingWord}>You</span>
+              Thank&nbsp;
+              <span className={classes.headingWord}>
+                <PeeledText>YOU</PeeledText>
+              </span>
             </h2>
             <a href={this.GITHUB_URL} target="_blank"
               className={classes.info}>Check code on GitHub</a>

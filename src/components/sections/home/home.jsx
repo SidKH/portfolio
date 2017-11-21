@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import injectSheet from 'react-jss';
 import Section from '../../section/section';
+import PeeledText from '../../peeled-text/peeled-text';
 import styles from './home.styles.js';
 
 /**
@@ -17,8 +18,11 @@ class Home extends Section {
               <div className={classes.contentHolder + ' fadeIn animated'}>
                 <span className={classes.info}>Alex Sidorenko</span>
                 <h2 className={classes.heading}>
-                  Simplicity<br/>
-                  Is the <span className={classes.headingWord}>key</span>
+                  SIMPLICITY<br/>
+                  IS THE&nbsp;
+                  <span className={classes.headingWord}>
+                    <PeeledText>KEY</PeeledText>
+                  </span>
                 </h2>
                 <span className={classes.info}>Javascript Developer</span>
               </div>
