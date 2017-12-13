@@ -1,5 +1,5 @@
 # Portfolio
-Complete code of my portfolio which you can find live here [http://elegantweb.co](http://elegantweb.co).  
+Complete code of my portfolio which you can find live here [https://alex-sidorenko.com](https://alex-sidorenko.com).  
 
 ## Technologies
 
