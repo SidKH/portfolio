@@ -33,7 +33,7 @@ class Contact extends Section {
     },
     {
       iconSrc: AngelSvg,
-      href: 'https://angel.co/alexander-sidorenko-1?public_profile=1'
+      href: 'https://angel.co/alexsidorenko'
     }
   ];
 
