@@ -25,7 +25,7 @@ class Contact extends Section {
   links = [
     {
       iconSrc: MailSvg,
-      href: 'mailto:my.mail.kharkov@gmail.com'
+      href: 'mailto:alex.sidorenko.dev@gmail.com'
     },
     {
       iconSrc: LinkedinSvg,
