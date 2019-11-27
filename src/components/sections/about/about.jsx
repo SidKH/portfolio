@@ -23,8 +23,8 @@ class About extends Section {
    */
   listItems = [
     {
-      topLine: 'A lil less conversation',
-      bottomLine: 'A lil more action',
+      topLine: 'Getting',
+      bottomLine: 'it Done',
       iconSrc: DoneSvgSrc
     },
     {
