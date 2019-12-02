@@ -5,15 +5,9 @@
  */
 const POSITIONS = [
   {
-    position: 'UI dev.',
-    company: 'Justcoded',
-    year: '2011',
-    link: 'http://justcoded.com'
-  },
-  {
     position: 'JS dev.',
     company: 'Justcoded',
-    year: '2012',
+    year: '2011',
     link: 'http://justcoded.com'
   },
   {
@@ -25,8 +19,14 @@ const POSITIONS = [
   {
     position: 'Senior js dev.',
     company: 'Labfolder',
-    year: '2016...',
+    year: '2016',
     link: 'http://labfolder.com'
+  },
+  {
+    position: 'Senior js dev.',
+    company: 'Pobble',
+    year: '2018...',
+    link: 'https://pobble.com'
   }
 ];
 
